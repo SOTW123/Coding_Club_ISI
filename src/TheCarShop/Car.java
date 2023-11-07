@@ -48,4 +48,16 @@ public class Car {
         return "Brand: " + brand + "\nColor: " + color + "\nModel Number: " + modelNumber;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public String getModelNumber() {
+        return modelNumber;
+    }
 }
+

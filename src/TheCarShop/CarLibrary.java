@@ -38,7 +38,6 @@ public class CarLibrary {
                 "Black",
                 "White"
         };
-
         for (String validColor : colors) {
             if(color.equals(validColor)) {
                 return true;
