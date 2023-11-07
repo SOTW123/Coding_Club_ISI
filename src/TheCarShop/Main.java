@@ -5,6 +5,7 @@ public class Main {
         Application app = new Application();
         while(true) {
             app.run();
+            System.out.println("----------------------------------------------------------------------------");
         }
     }
 }

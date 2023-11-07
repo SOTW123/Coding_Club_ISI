@@ -40,7 +40,7 @@ public class Application {
             } else {
                 System.out.println("Which car would you like to get the info for?");
                 for(int i = 0; i < carsList.size(); i++) {
-                    System.out.println("    -" + namesList.get(i));
+                    System.out.println("    - " + namesList.get(i));
                     //System.out.println("    -" + "(" + (i+1) + ") " + carsList.get(i).getBrand() + ", " + carsList.get(i).getColor() + ", " + carsList.get(i).getModelNumber());
                 }
                 String inp = scan.nextLine();
