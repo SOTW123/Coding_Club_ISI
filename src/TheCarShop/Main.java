@@ -1,5 +1,10 @@
 package TheCarShop;
 
 public class Main {
-    maddfdklfsdfjlsjf
+    public static void main(String[] args) {
+        Application app = new Application();
+        while(true) {
+            app.run();
+        }
+    }
 }
