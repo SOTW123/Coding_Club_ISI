@@ -3,17 +3,17 @@ package ObjectOrientedAssignments.AccountingProject;
 public class BankAccount implements Accountable {
     // instance variablese + constructor
     private String accountHolderName;
-    private String accountNumber;
+    private String cardNumber;
     private int balance;
 
     BankAccount(String accountHolderName, String accountNumber) {
         this.accountHolderName = accountHolderName;
-        this.accountNumber = accountNumber;
+        this.cardNumber = accountNumber;
         this.balance = 0;
     }
     BankAccount(String accountHolderName, String accountNumber, int balance) {
         this.accountHolderName = accountHolderName;
-        this.accountNumber = accountNumber;
+        this.cardNumber = accountNumber;
         this.balance = balance;
     }
 
@@ -22,8 +22,8 @@ public class BankAccount implements Accountable {
     public String getAccountHolderName() {
         return accountHolderName;
     }
-    public String getAccountNumber() {
-        return accountNumber;
+    public String getCardNumber() {
+        return cardNumber;
     }
     public int getBalance() {
         return balance;
